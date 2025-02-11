@@ -1,0 +1,77 @@
+input{
+   width:120px;
+   height:80px;
+   font-size:65px;
+   border-radius:10px;
+   margin:auto;
+   background-color:pink;
+   color:rgb(255, 0, 119);
+   border-style:none; 
+    max-width: 1200px;
+    
+}
+
+#calform {
+
+    margin-left:350px;
+    margin-top:20px;
+}
+
+h1 {
+
+    text-align:center;
+    font-size:60px;
+    margin-right:80px;
+    margin-top: 20px;
+    color: white;
+}
+
+body {
+
+    background: url(./Background/c5bdb76f-b1f9-4f51-ab27-19d2d2d08d47.jpg);
+    background-size:cover;
+}
+
+body {
+    background: linear-gradient(to bottom, #0099ff, #003366);
+    overflow: hidden;
+}
+
+.ocean {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: url('https://i.imgur.com/6ZsGLmw.png') repeat-x;
+    animation: wave 5s infinite linear;
+}
+
+@keyframes wave {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 1000px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 1200px;  /* Limits width to prevent stretching */
+        width: 90%;  /* Makes it flexible */
+        margin: 0 auto; /* Centers it */
+    }
+    
+    #scale {
+        margin: auto;
+    }
+
+    #james {
+            margin: auto;
+            width: auto;
+    }
